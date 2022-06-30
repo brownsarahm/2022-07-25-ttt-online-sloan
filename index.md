@@ -5,20 +5,17 @@ country: "w3"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 humandate: "July 25-28, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "1-5pm EDT"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+startdate: 2022-07-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2022-07-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Sarah Brown", "Samniqueka Halsey"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["N/A"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["smb@sarahmbrown.org", "samniquekahalsey@missouri.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+etherpad:  https://pad.carpentries.org/2022-07-25-ttt-online-sloan           # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:            # for online events, delete the second section below. for in-person events, customize the second section and delete the first section.
   - venue: "Online" 
     address: ""
 
-  - venue: "Euphoria University" 
-    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
-    latlng: "41.7901128,-87.6007318"
 
 ---
 
@@ -66,7 +63,7 @@ locations:            # for online events, delete the second section below. for 
   event is designed to prepare trainees to certify and participate as Carpentries 
   Instructors. However, much of our curriculum focuses on educational principles that 
   apply across a wide variety of contexts. We also welcome participants who do not plan 
-  to certify but simply wish to become a better teacher.
+  to certify but simply wish to become a better teacher. 
 </p>
 
 <p>Carpentries Instructor Training has the following goals:</p>
@@ -172,14 +169,6 @@ Before your training, please visit our Preparing for Instructor Training page fo
 After the training event, we ask you to complete three follow-up tasks to become a certified Instructor. These requirements are detailed on our 
   <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page and will be discussed at our training. 
   
-<h3>What to Bring to an In-Person Event</h3>
-
-Participants should bring a laptop that is Internet connected and has a
-functioning browser. If you have it, a device for recording audio and video
-(mobile phones and laptops are OK) is useful as we
-are going to record one another teaching in pairs or threes. It does not have
-to be high-quality, but it should be good enough that you can understand what
-someone is saying.
 
 <h3>Attendance and Cancellation</h3>
 Trainees who miss more than 1 hour of the training may be marked absent. 
