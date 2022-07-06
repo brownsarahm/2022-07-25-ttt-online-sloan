@@ -63,7 +63,9 @@ locations:            # for online events, delete the second section below. for 
   event is designed to prepare trainees to certify and participate as Carpentries 
   Instructors. However, much of our curriculum focuses on educational principles that 
   apply across a wide variety of contexts. We also welcome participants who do not plan 
-  to certify but simply wish to become a better teacher. 
+  to certify but simply wish to become a better teacher. <b> This is a special training 
+  event for members of the Black, Latinx, and Idigenous Communities Funded by a <a href-"https://carpentries.org/blog/2021/06/carpentries-sloan-foundation-announcement/">Sloan 
+  Foundation Grant</a> to advance The Carpentries Equity and Inclusion goals for training researchers of color. </b>
 </p>
 
 <p>Carpentries Instructor Training has the following goals:</p>
